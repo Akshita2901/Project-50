@@ -1,0 +1,33 @@
+H1{
+    color: blueviolet;
+}
+p{
+    color: crimson;
+}
+/*If we add * befor e curly bracket then it will be applicable for everythimg present in in the file.*/
+
+*{
+    color: chartreuse;
+    border:dashed yellow;
+}
+
+.header{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: darksalmon;
+}
+
+.all{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    background-color: deeppink;
+    justify-content: space-between;
+}
